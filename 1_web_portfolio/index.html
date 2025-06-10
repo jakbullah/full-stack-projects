@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fanta.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <a href="/">Jake B</a>
+        <nav>
+            <a target="_blank" href="https://github.com/jakbullah"><i class="fa-brands fa-square-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/jakebutlerdev/"><i class="fa-brands fa-linkedin"></i></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>Hi! I'm Jake...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5 class="Intro-description">
+                Blahbal ahabals hdksbfjs kahdksd jhf Blah a lahab alsh dksbf jskah dks d jhfBlah bala habalshd ksbfjskah dk sdjh fBlahb alaha bals hdks bfjsk ahdk sdjh fBl ah ba lahabals h dksbfjs kahdk sdjhf
+            </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a href="mailto: jake.butler0017@gmail.com">
+                    Email me
+                </a>
+                <a target="_blank" href="https://github.com/jakbullah">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/jakebutlerdev/">LinkedIn</a>
+            </div>
+
+            <div id="play-game">
+                <button onclick="playGame()">Play Game???</button>
+            </div>
+            <div style="display: none;" class="color-div">
+                <h4>Pick a color</h4>
+                <p style="display: none;">Great, now it's ruined!</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff"/>
+                <button style="display: none;" onclick="resetColor()">Reset</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>ReactJS | VueJS | NextJS | NodeJS </td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Object-Oriented Design | Spring Boot | Integration Testing | Unit Testing</td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>PostGreSQL | GIT | AWS</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>Documentation | Project Management | Client Services | Microsoft Office</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Latest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>00/00/0000</p>
+                        <h4>Project Name</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>This is a description for the above project This is a description for the above project This is a description for the above project This is a description for the above project This is a description for the above project</p>
+                            <div class="project-links">
+                                <a target="_blank" href="">Live</a>
+                                <a target="_blank" href="">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/1_web_portfolio/public/fantacss.png" alt="firstProject-thumbnail"></div>
+                    </div>
+                </div>   
+                
+                <div class="project-card">
+                    <div>
+                        <p>00/00/0000</p>
+                        <h4>Project Name</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>This is a description for the above project</p>
+                            <div class="project-links">
+                                <a target="_blank" href="">Live</a>
+                                <a target="_blank" href="">GitHub</a>
+                            </div>                       
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/1_web_portfolio/public/fantacss.png" alt="firstProject-thumbnail"></div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div>
+                        <p>00/00/0000</p>
+                        <h4>Project Name</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NextJS</p>
+                            </div>
+                            <p>This is a description for the above project</p>
+                            <div class="project-links">
+                                <a target="_blank" href="">Live</a>
+                                <a target="_blank" href="">GitHub</a>
+                            </div>                         
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img" src="/1_web_portfolio/public/fantacss.png" alt="firstProject-thumbnail"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>By <a href="" target="_blank">Jake Butler</a> Thanks for tuning in! ⭐️ the repo on <a target="_blank" href="">GitHub</a></p>
+    </footer>
+    <script>
+        // Color Game
+        
+        // 1. Selecting all the correct elements
+
+        const body = document.querySelector('body')
+        const colorInput = document.getElementById('color-picker')
+        const colorDiv = document.querySelector('.color-div')
+        const hiddenText = document.querySelector('.color-div p')
+        const resetBtn = document.querySelector('.color-div button')
+        const playBtn = document.getElementById('play-game')
+
+        // 2. Create the functions
+
+        function playGame() {
+            //This function starts the game by enabling the color picker
+            colorDiv.style.display = 'block'
+            playBtn.style.display = 'none'
+        
+        }
+
+        function changeColor() {
+            //This function takes the user input and sets it as the background
+                const selectedColor = colorInput.value
+                body.style.background = selectedColor
+                resetBtn.style.display = 'block'
+                hiddenText.style.display = 'block'
+                colorInput.style.display = 'none'
+         }
+
+         function resetColor() {
+                body.style.background = 'white'
+                colorInput.style.display = 'block'
+                playBtn.style.display = 'block'
+
+                hiddenText.style.display = 'none'
+                resetBtn.style.display = 'none'
+                colorDiv.style.display = 'none'
+         }
+
+        
+
+        // 3. Assign the functions to the buttons
+
+    </script>
+</body>
+</html>
