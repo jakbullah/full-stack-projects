@@ -95,9 +95,12 @@ export default function WorkoutCard(props) {
                         <p className="exercise-info">{warmupExercise.sets}</p>
                         <p className="exercise-info">{warmupExercise.reps}</p>
                         <input
+                            value={weights[warmupExercise.name] || ''}
+                            onChange={(e) => {
+                                handleAddWeight(warmupExercise.name, e.target.value)
+                            }}
                             className="weight-input"
-                            placeholder="N/A"
-                            disabled
+                            placeholder=""
                         />
                     </React.Fragment>
                 ))}
@@ -140,7 +143,7 @@ export default function WorkoutCard(props) {
                                 handleAddWeight(workoutExercise.name, e.target.value)
                             }}
                             className="weight-input"
-                            placeholder="14"
+                            placeholder=""
                         />
                     </React.Fragment>
                 ))}
